@@ -3,7 +3,7 @@ import boto3
 from urllib import request, parse
 
 def lambda_handler(event, context):
-    base_url = "http://apis.data.go.kr/6260000/BusanPblcPrkngInfoService/getPblcPrkngInfo"
+    base_url = ""
     params = {
         "serviceKey": "YOUT_API_KEY",
         "numOfRows": 100,
